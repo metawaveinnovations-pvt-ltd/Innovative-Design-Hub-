@@ -1,0 +1,6 @@
+{
+  "name": "Innovative Design Hub (IDH)",
+  "description": "Digital skills academy offering practical courses in Web Development with AI, Graphic Design, Digital Marketing, Artificial Intelligence, English Language, Python Programming, and Cyber Security.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

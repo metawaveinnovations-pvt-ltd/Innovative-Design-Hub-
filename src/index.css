@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-idh-obsidian: #051b16;
+  --color-idh-pine: #09261f;
+  --color-idh-emerald: #047857;
+  --color-idh-emerald-bright: #059669;
+  --color-idh-emerald-dark: #065f46;
+  --color-idh-teal: #0d9488;
+  --color-idh-aqua: #2dd4bf;
+  --color-idh-gold: #b87a0e;
+  --color-idh-gold-bright: #f5b935;
+  --color-idh-canvas: #fafbf9;
+  --color-idh-surface: #ffffff;
+  --color-idh-tint: #f3f7f5;
+  --color-idh-ink: #091815;
+  --color-idh-slate: #425652;
+  --color-idh-border: #dae5e0;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 84px;
+    background-color: var(--color-idh-canvas);
+    color: var(--color-idh-ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    overflow-x: clip;
+    background-color: var(--color-idh-canvas);
+    color: var(--color-idh-ink);
+  }
+
+  a,
+  button,
+  input,
+  select,
+  textarea {
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+  }
+
+  h1,
+  h2,
+  .font-display {
+    font-family: var(--font-display);
+  }
+
+  h1,
+  h2,
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  :focus-visible {
+    outline: 2px solid #047857;
+    outline-offset: 2px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

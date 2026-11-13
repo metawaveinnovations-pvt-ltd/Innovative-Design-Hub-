@@ -1,0 +1,921 @@
+# MASTER BUILD PROMPT
+## INNOVATIVE DESIGN HUB (IDH)
+### Premium Educational Academy Website — Design, Development, UX & Enrollment
+
+**ROLE & MISSION**
+
+Act as an elite multidisciplinary digital product team combining the expertise of:
+
+- Senior EdTech Product Strategist
+- Creative Director & Brand Identity Specialist
+- Principal UI/UX Designer
+- Senior React / TypeScript Engineer
+- Student Enrollment & Conversion Specialist
+- Accessibility & Web Performance Engineer
+- Technical SEO Specialist
+- Quality Assurance Engineer
+
+Your assignment is to **design and build the complete, functional, high-quality public website for Innovative Design Hub (IDH)**.
+
+Build the actual application in Google AI Studio Build. Do not deliver only a proposal, static mockup, generic template, or development plan.
+
+The website must feel like a credible, forward-thinking digital skills academy with its own distinctive identity, not a conventional institute website or an AI-generated landing-page template.
+
+Prioritize three outcomes:
+
+1. **Trust:** Students quickly understand what IDH teaches, who teaches it, and how learning works.
+2. **Discovery:** Visitors can effortlessly explore courses and choose relevant learning opportunities.
+3. **Conversion:** Interested students can enquire or apply through an exceptionally clear and frictionless process.
+
+Use professional educational communication, authentic information, elegant visual storytelling, and production-quality front-end engineering.
+
+---
+
+# 01 — ORGANIZATION INFORMATION
+
+**Official Name:** Innovative Design Hub
+
+**Abbreviation:** IDH
+
+**Founder:** Abdul Hannan Memon
+
+**Type:** Digital Skills Development & Learning Academy
+
+**Primary Audience:**
+- Students exploring digital skills
+- Beginners entering technology careers
+- Young professionals seeking practical skills
+- Individuals interested in creative disciplines, AI, programming and marketing
+- Applicants interested in future scholarships
+
+**Teaching Focus:**
+- Web Development with AI
+- Graphic Design
+- Digital Marketing
+- Artificial Intelligence
+- English Language and Conversation
+- Python Programming
+- Cyber Security
+
+**Contact Numbers:**
+- 03103816085
+- 0316 3042347
+
+**Technical / Digital Collaboration:** MetaWave Innovations LTD is involved in the proposed website and digital presence collaboration. Any public partnership attribution must be approved before publication.
+
+Do not invent office addresses, official email addresses, registration numbers, accreditation, campus locations, social profiles, or organizational history.
+
+The initial website language must be professional, accessible English.
+
+---
+
+# 02 — BRAND & VISUAL REFERENCE ANALYSIS
+
+Before developing the interface, thoroughly inspect every uploaded IDH reference image, logo, promotional poster, existing creative, and visual asset that is actually available.
+
+Identify:
+
+- Official logo and symbol
+- Existing colors and identity
+- Typography characteristics
+- Brand personality
+- Existing communication style
+- Visual elements worth preserving
+- Any reliable organizational information visible in the assets
+
+Use the official brand identity consistently.
+
+If reference images are unavailable or insufficient, do not pretend to have analyzed them. Establish a provisional design system that can easily be replaced with official assets later.
+
+**Fallback Design Direction:**
+
+- Deep midnight navy: `#0B1426`
+- Modern educational blue: `#356DFF`
+- Light cyan accent: `#66DBE8`
+- Clean off-white: `#F7F9FC`
+- White: `#FFFFFF`
+- Text charcoal: `#182337`
+- Supporting gray: `#66758C`
+
+Use these as provisional colors only if the supplied IDH branding does not specify another palette.
+
+**Design Character:**
+
+- Premium but approachable
+- Modern and youthful without appearing childish
+- Academic credibility with creative energy
+- Sophisticated typography
+- Warm and welcoming
+- Clean whitespace
+- Bold yet disciplined visual hierarchy
+- Original compositions
+- Smooth, purposeful animations
+
+Avoid generic purple gradient templates, unnecessary glassmorphism, excessive glowing effects, randomly colored cards, cartoon-heavy imagery, oversized decorative icons, and clichéd AI-generated people.
+
+Use authentic supplied photographs when available. Otherwise rely on original graphical compositions, educational illustrations, course-related visuals, and tasteful abstract elements. Never invent instructor photographs.
+
+---
+
+# 03 — WEBSITE STRUCTURE & NAVIGATION
+
+Build a responsive, real multi-page website with a consistent application shell.
+
+**Primary Navigation:**
+
+1. Home — `/`
+2. Courses — `/courses`
+3. Our Instructors — `/instructors`
+4. Scholarships — `/scholarships`
+5. About IDH — `/about`
+6. Contact — `/contact`
+
+**Primary Header CTA:** Explore Courses
+
+**Secondary Enrollment CTA:** Enquire Now
+
+**Additional Routes:**
+- `/courses/:slug` — Individual course detail
+- `/enroll` — Student enrollment enquiry
+- `/faq` — Frequently Asked Questions
+- `/privacy` — Privacy Policy
+
+Use working client-side routing, meaningful active navigation states, and a useful 404 page.
+
+**Global Header**
+
+- Original IDH logo
+- Slim, well-proportioned navigation
+- Professional hover and active states
+- Sticky header that becomes slightly more compact while scrolling
+- Accessible mobile menu
+- Prominent enrollment CTA
+- No distracting or aggressive popup
+
+**Global Footer**
+
+Include:
+- IDH logo
+- Concise academy description
+- Courses
+- Useful links
+- Both verified phone numbers
+- Social media links only when official URLs are supplied
+- Privacy information
+- Dynamic copyright year
+
+Optional discreet footer credit:
+"Digital experience in collaboration with MetaWave Innovations LTD"
+
+Display that credit only if the partnership attribution has been approved.
+
+---
+
+# 04 — HOMEPAGE: COMPLETE EXPERIENCE
+
+Create an exceptional homepage composed of purposeful, visually differentiated sections.
+
+## SECTION 01 — PREMIUM HERO
+
+**Eyebrow:**
+WELCOME TO INNOVATIVE DESIGN HUB
+
+**Primary Heading:**
+Learn Digital Skills.
+Build Your Future.
+
+**Supporting Copy:**
+"Explore practical learning opportunities in technology, design, AI, programming, marketing and communication with Innovative Design Hub."
+
+**Primary CTA:**
+Explore Our Courses
+
+**Secondary CTA:**
+Discover IDH
+
+**Hero Visual Direction:**
+
+Create a visually sophisticated educational composition rather than a generic classroom stock photo.
+
+Possible composition:
+- Premium floating interface previews
+- Course-category visual tiles
+- Subtle code editor representation
+- Design-tool inspired creative elements
+- AI, programming and digital learning motifs
+- Organized layered depth and restrained motion
+
+Use dimensionality and visual interest without sacrificing readability or performance.
+
+The headline should dominate the left column on desktop, with a balanced visual experience on the right.
+
+Mobile:
+- Clear heading first
+- Supporting description
+- Full-width primary CTA
+- Secondary action
+- Optimized visual below
+
+No fake student counters, employment rates, awards, years of experience or placement statistics.
+
+## SECTION 02 — INTRODUCTORY VALUE STRIP
+
+Create a concise horizontal area that communicates the learning experience.
+
+Suggested items:
+- Practical Digital Skills
+- Instructor-Led Learning
+- Creative & Technical Disciplines
+- Learning Opportunities
+
+Use simple icons and brief explanations.
+
+If referencing Zoom classes or recordings, clearly limit these confirmed features to the 2026 scholarship program unless IDH approves them as academy-wide benefits.
+
+## SECTION 03 — EXPLORE OUR COURSES
+
+**Eyebrow:** LEARNING PATHWAYS
+
+**Heading:**
+Explore Skills Worth Learning.
+
+**Description:**
+"Discover courses across technology, creativity, communication and digital business."
+
+Show all seven main course categories using visually differentiated, refined cards.
+
+Each course card should display:
+- Recognizable course-specific icon or graphic
+- Course title
+- Short introductory description
+- Assigned instructor
+- Explore Course action
+
+Main courses:
+
+1. Web Development with AI
+2. Graphic Design
+3. Digital Marketing
+4. Artificial Intelligence
+5. English Language & Conversation Club
+6. Python Programming
+7. Cyber Security
+
+Create an elegant responsive layout, with carefully balanced card sizes, consistent paddings and pleasant hover states.
+
+Include:
+- Functional course search
+- Category filters
+- Clear view-all action
+- Useful empty states
+
+Do not invent course prices, durations, curricula, class dates, or admission availability.
+
+## SECTION 04 — WHY LEARN WITH IDH?
+
+**Heading:**
+Learning Designed Around Real Skills.
+
+Create a modern editorial layout explaining IDH's focus on practical digital education.
+
+Suggested content themes:
+- Skill-focused education
+- Instructor guidance
+- Diverse digital disciplines
+- Opportunity to explore emerging technology
+- Clear and accessible learning information
+
+Use alternating visual and textual arrangements rather than repetitive cards.
+
+Do not claim industry-recognized certifications or job guarantees.
+
+## SECTION 05 — LEARNING JOURNEY
+
+**Eyebrow:** YOUR JOURNEY
+
+**Heading:**
+From Curiosity to Capability.
+
+Present a visually engaging four-step student journey:
+
+**01 — Explore**
+Discover the digital skills available at IDH.
+
+**02 — Choose**
+Find the course aligned with your learning goals.
+
+**03 — Connect**
+Submit an enquiry and receive information about enrollment.
+
+**04 — Learn**
+Begin your learning journey once the course and admission details are confirmed.
+
+Design this as a refined progression or connected visual pathway, not four generic boxes.
+
+All four stages must remain usable on mobile.
+
+## SECTION 06 — SCHOLARSHIP FEATURE
+
+**Eyebrow:** IDH SCHOLARSHIP INITIATIVES
+
+**Heading:**
+Making Digital Learning More Accessible.
+
+Describe IDH's Skill Development Scholarship Program 2026.
+
+Historical program facts:
+- 100% tuition fee scholarship for selected students
+- 100+ scholarship seats advertised
+- Six scholarship course options
+- Online Zoom-based classes
+- Class recordings
+- Merit-based selection
+- Certificate and internship opportunities
+- Application deadline: 21 September 2026
+
+**Critical date logic:**
+
+The listed deadline is in the past.
+
+Therefore:
+- Do not say "Applications Open."
+- Do not show an active "Apply Now" button for this 2026 round.
+- Do not advertise the seats as currently available.
+- Use an appropriate "2026 Applications Closed" status.
+- Display historical program information respectfully.
+- Allow visitors to explore the program.
+- Offer "Enquire About Future Opportunities" as an appropriate action.
+
+Structure the implementation so administrators can update scholarship rounds, seat counts, dates, eligibility rules and statuses without redesigning the page.
+
+Never automatically extend a deadline or invent a new scholarship intake.
+
+## SECTION 07 — MEET YOUR INSTRUCTORS
+
+**Eyebrow:** THE PEOPLE BEHIND THE LEARNING
+
+**Heading:**
+Meet Your Instructors.
+
+Feature real instructor names and their assigned subjects.
+
+Use consistent, high-quality instructor cards.
+
+If supplied images are available, use them appropriately.
+Otherwise use polished initials-based profile placeholders.
+
+Include a secondary CTA:
+Meet the Full Team
+
+Avoid inventing degrees, employer affiliations, experience counts, professional achievements or biographies.
+
+## SECTION 08 — STUDENT EXPERIENCE
+
+**Heading:**
+A Clearer Way to Start Learning.
+
+Create an elegant student-experience section using course exploration, enrollment and instructor interaction concepts.
+
+Explain what students can expect from the website:
+- Clear course information
+- Direct enquiries
+- Instructor identification
+- Scholarship information
+- Simple mobile access
+
+Use original UI-style illustrations or educational visuals.
+
+Do not present a non-existent student portal, learning management system, or live Zoom integration as an already functioning service.
+
+## SECTION 09 — FREQUENTLY ASKED QUESTIONS
+
+Display a well-designed, accessible accordion.
+
+Include questions such as:
+
+- What courses does IDH offer?
+- How can I enquire about admission?
+- Who teaches the courses?
+- Were the 2026 scholarships merit-based?
+- Were the 2026 scholarship classes conducted on Zoom?
+- Are course recordings provided?
+- Are certificates and internships guaranteed?
+- How can I receive information about future scholarship opportunities?
+
+Only answer using verified information.
+
+For unknown information such as fees or schedules, instruct the visitor to contact IDH.
+
+Avoid promising guaranteed internships, certificates, admissions or employment.
+
+## SECTION 10 — FINAL ENROLLMENT CTA
+
+Create a visually distinct, premium call-to-action section.
+
+**Heading:**
+Your Next Skill Starts Here.
+
+**Description:**
+"Discover the learning opportunity that matches your interests and take the first step with IDH."
+
+**Primary CTA:**
+Explore Courses
+
+**Secondary CTA:**
+Send an Enrollment Enquiry
+
+Use a sophisticated branded background with restrained illustration and clear text contrast.
+
+## SECTION 11 — FOOTER
+
+Create a balanced, comprehensive but compact footer with no empty links or unsupported information.
+
+---
+
+# 05 — COURSE DETAIL PAGES
+
+Every listed course must have its own functioning detail page.
+
+All pages must share a consistent structure but retain subject-specific visual identity.
+
+**Course detail layout:**
+
+1. Course title and category
+2. Clear introductory explanation
+3. Assigned instructor
+4. Who the course may suit
+5. Broad subject overview
+6. Learning information, where verified
+7. Enrollment enquiry CTA
+8. Related courses
+9. Relevant FAQ
+
+**Verified Course-to-Instructor Mapping:**
+
+| Course | Instructor |
+|---|---|
+| Web Development with AI | Abdul Hannan Memon |
+| Graphic Design | Muhammad Ahsan Memon |
+| Digital Marketing | Tofeeque Unar |
+| Artificial Intelligence | Muhammad Ahmed |
+| English Language & Conversation Club | Muhammad Ashnad Hussain |
+| Python Programming | Syeda Aleena Fatima |
+| Cyber Security | Jannat e Khizra |
+
+Muhammad Ahmed must also be identified accurately as IDH Administrator.
+
+Where useful, explain subjects in accessible introductory language.
+
+Do not invent detailed syllabi, exact learning outcomes, durations, certificates, schedules, fees, language of instruction or enrollment status.
+
+If specific course details have not been provided, display a tasteful and useful "Contact IDH for details" prompt.
+
+**Important naming distinction:**
+
+The academy course list uses "Web Development with AI," while the historical scholarship promotion uses "Web Design with AI."
+
+Preserve the supplied scholarship wording in its historical context. Do not silently claim these are identical course offerings without confirmation.
+
+The scholarship's "Foundation of AI" must also remain distinct from the broader academy category "Artificial Intelligence."
+
+---
+
+# 06 — SCHOLARSHIP PAGE
+
+Build a dedicated scholarship landing page that looks like a genuine academic opportunity page, not an ordinary promotional poster.
+
+**Page Heading:**
+IDH Skill Development Scholarship Program 2026
+
+**Subheading:**
+An initiative supporting selected students in developing practical digital skills.
+
+**Status:**
+Applications Closed — 2026 Round
+
+**Published Application Deadline:**
+21 September 2026
+
+**Historical Program Benefits:**
+- 100% Tuition Fee Scholarship for selected students
+- 100% Online Zoom Classes
+- Expert Instructors
+- Class Recordings Provided
+- Merit-Based Selection
+- Certificate & Internship Opportunities
+
+**Advertised Scholarship Seats:**
+100+
+
+Clearly distinguish historical advertised availability from current open seats.
+
+**Six Scholarship Course Options Only:**
+1. Graphic Design
+2. Foundation of AI
+3. Python Programming
+4. Web Design with AI
+5. English Language Program
+6. Digital Marketing
+
+Do not add Cyber Security to the 2026 scholarship list, because it was not included in the supplied announcement.
+
+Page sections:
+- Scholarship introduction
+- Courses covered
+- Benefits
+- Historical application information
+- Selection method: merit-based
+- FAQ
+- Future opportunities enquiry CTA
+
+Do not invent scholarship tests, eligibility thresholds, selection weightings or application steps.
+
+Build a flexible, data-driven scholarship model supporting future rounds with statuses such as Draft, Open, Closed and Archived.
+
+An expired or closed scholarship must never accept new applications as if the round were active.
+
+---
+
+# 07 — OUR INSTRUCTORS PAGE
+
+Build a dedicated instructor directory.
+
+**Heading:**
+Learn From the People Behind IDH.
+
+Include all seven instructors, each with a clear role and course association.
+
+Design:
+- Professional profile cards
+- Harmonized image dimensions
+- Name and course
+- Optional verified biography
+- Course-detail navigation
+- Consistent typography
+
+Place Abdul Hannan Memon in an appropriate founder position within the site's leadership narrative, while also showing his instructional role.
+
+Place Muhammad Ahmed's administrative role in the relevant profile.
+
+No fake social profiles, qualifications, portraits or achievements.
+
+If instructor biographies are missing, make the cards feel complete through careful layout, meaningful subject descriptions and authentic names rather than filler.
+
+---
+
+# 08 — ABOUT IDH PAGE
+
+**Heading:**
+About Innovative Design Hub.
+
+Build an authentic and carefully structured institutional introduction.
+
+Content objectives:
+- Explain IDH's focus on digital skills development
+- Introduce the learning disciplines
+- Present the founder
+- Explain the value of practical learning
+- Encourage students to discover courses
+- Provide a clear contact route
+
+**Founder Section:**
+
+Abdul Hannan Memon  
+Founder, Innovative Design Hub  
+Instructor — Web Development with AI
+
+Present the founder professionally without fabricating a personal story, awards, degrees, career history or inspirational quotations.
+
+The overall tone should be confident, student-focused and approachable.
+
+Avoid generic, exaggerated phrases about being the nation's largest academy or the world's leading education platform.
+
+---
+
+# 09 — ENROLLMENT EXPERIENCE
+
+Enrollment UX is a core business priority.
+
+Build a dedicated, responsive enrollment enquiry page.
+
+**Heading:**
+Start Your Learning Journey.
+
+**Supporting Copy:**
+"Tell us what you'd like to learn, and the IDH team can guide you with the relevant enrollment information."
+
+**Form Fields:**
+
+Required:
+- Full name
+- Email address
+- Phone number
+- Course of interest
+
+Optional:
+- Current learning level: Beginner / Some Experience / Experienced
+- Message or question
+
+Required:
+- Privacy and contact-consent checkbox
+
+Keep the form compact, visually clean and easy to complete on mobile.
+
+**UX Requirements:**
+- Inline validation
+- Helpful error messages
+- Clearly indicated required fields
+- No unnecessary student data collection
+- No mandatory account creation
+- No CNIC or identity-document upload at this stage
+- Loading and disabled states
+- Accessible labels
+- Keyboard support
+- Clear submission outcome
+
+**Critical functionality requirement:**
+
+A successful submission message may only appear after a real configured backend has accepted the record.
+
+Implement a secure, maintainable submission service using an available supported backend. If credentials or a backend connection are not configured, leave a clearly marked integration point and display an accurate unavailable/configuration state.
+
+Never silently discard enquiries or pretend they were saved.
+
+Protect submitted personal information with appropriate access restrictions and input validation.
+
+Use spam protection and rate limiting where supported.
+
+**Contact Channels:**
+
+Create functional click-to-call links:
+
+- `tel:+923103816085`
+- `tel:+923163042347`
+
+Use WhatsApp click-to-chat only for numbers explicitly verified as WhatsApp contact numbers.
+
+---
+
+# 10 — CONTACT PAGE
+
+Create a simple, trustworthy and polished Contact IDH experience.
+
+Show:
+- Both supplied phone numbers
+- General contact enquiry form
+- Course enquiry shortcut
+- Scholarship enquiry shortcut
+- Future social links when verified
+
+The contact page should communicate easy access and student support.
+
+Do not invent a physical address, city, office hours, email address or map location.
+
+If no official email is available, omit the email field from the institution's contact details.
+
+---
+
+# 11 — INTERACTION DESIGN & MOTION
+
+The site must feel responsive, precise and polished.
+
+Implement:
+- Subtle scroll-reveal transitions
+- Purposeful card hover states
+- Smooth anchor navigation
+- Sticky header transition
+- Accessible accordion animations
+- Responsive mobile menu
+- Elegant button feedback
+- Visible keyboard focus states
+- Graceful page transitions where appropriate
+- Subtle movement in educational hero visuals
+
+Motion should support understanding, not distract from the content.
+
+Prefer opacity and transform animations.
+
+Avoid expensive scroll listeners, scroll-jacking, overscroll problems, long animated delays, unnecessary parallax and heavy WebGL effects.
+
+Honor `prefers-reduced-motion`.
+
+The site must remain fully usable without animations.
+
+---
+
+# 12 — MOBILE-FIRST EXPERIENCE
+
+Treat mobile UX as equally important as desktop.
+
+Target viewport widths:
+- 320px
+- 375px
+- 390px
+- 430px
+- 768px
+- 1024px
+- 1440px and above
+
+Requirements:
+- No horizontal overflow
+- Readable body text
+- Comfortable heading scale
+- Minimum 44px interactive touch targets where practical
+- Properly spaced cards
+- Accessible mobile navigation
+- Optimized forms
+- Clear mobile CTAs
+- Legible course details
+- Responsive images
+- No overlapping elements
+- No oversized decorative graphics covering content
+
+On smaller screens, prioritize clear course discovery and enrollment rather than decorative complexity.
+
+---
+
+# 13 — TECHNICAL ARCHITECTURE
+
+Build the application with a maintainable modern stack suitable for Google AI Studio Build.
+
+Preferred technologies, where supported:
+- React
+- TypeScript
+- Tailwind CSS
+- React Router
+- Lightweight icon library
+- Motion library only if necessary
+
+Use:
+- Reusable UI components
+- Centralized design tokens
+- Clean route architecture
+- Data-driven course and instructor records
+- Content configuration for dates and scholarship statuses
+- Modular form components
+- Proper semantic HTML
+- Clear loading, empty, error and success states
+
+Separate verified content from configuration placeholders.
+
+Do not create a giant single-file app.
+
+Do not build an unnecessary academic ERP, payment gateway, attendance management system or complex student dashboard in this first public website release.
+
+Keep the architecture extensible for future features.
+
+---
+
+# 14 — SEO, ACCESSIBILITY & PERFORMANCE
+
+**Technical SEO**
+
+Implement:
+- Unique page titles
+- Appropriate meta descriptions
+- Logical heading hierarchy
+- Semantic landmarks
+- Descriptive internal links
+- Course-specific URLs
+- Canonical URL support once the production domain is known
+- Sitemap generation
+- robots.txt
+- Open Graph metadata
+- Structured data for Organization and Course where applicable
+- Clean URLs
+- Descriptive image alternative text
+
+Do not invent organization identifiers, physical locations, accreditation or course pricing in structured data.
+
+Do not publish placeholder production URLs as authoritative canonical URLs.
+
+**Accessibility**
+
+Aim for WCAG 2.2 AA:
+- Contrast-compliant colors
+- Proper form labels
+- Keyboard navigation
+- Visible focus states
+- Logical reading order
+- Accessible mobile menus
+- Correct ARIA usage
+- Reduced-motion support
+
+**Performance Targets**
+
+Aim for strong Core Web Vitals:
+- LCP under 2.5 seconds
+- CLS under 0.1
+- INP under 200 milliseconds
+
+Targets should be measured, not claimed as achieved without testing.
+
+Use:
+- Optimized image formats
+- Responsive image sizes
+- Lazy loading below the fold
+- Font optimization
+- Sensible code splitting
+- Minimal JavaScript
+- No unnecessary third-party scripts
+
+---
+
+# 15 — CONTENT INTEGRITY RULES
+
+These requirements are mandatory.
+
+1. Use only supplied and verified organizational facts.
+2. Never fabricate instructors, qualifications, testimonials, course fees, schedules or alumni outcomes.
+3. Do not invent official partnerships, certificates or accreditations.
+4. Do not claim students are guaranteed internships or employment.
+5. Do not display the September 2026 scholarship as currently open.
+6. Do not use fake countdown timers, misleading scarcity messaging or artificial enrollment statistics.
+7. Do not add dead buttons or nonfunctional links.
+8. Do not invent social media URLs or contact information.
+9. Do not assume the institution has an active physical campus.
+10. Do not falsely claim that records are saved or enquiries delivered.
+11. Do not display fabricated ratings, review counts or student testimonials.
+12. Do not present provisional content as verified.
+
+Maintain a clear separation between actual facts, editable administrative values and future functionality.
+
+---
+
+# 16 — PROFESSIONAL DESIGN QUALITY CONTROL
+
+Before finalizing, evaluate every screen as a senior product designer and technical QA engineer.
+
+Check:
+
+**Visual Design**
+- Does the site look like an original contemporary education brand?
+- Is the typography polished and consistent?
+- Does every section have a defined visual purpose?
+- Is the composition balanced?
+- Are the visual assets appropriate?
+- Is the brand identity consistent?
+
+**Usability**
+- Can a new visitor understand IDH immediately?
+- Can they find the right course?
+- Can they identify the instructor?
+- Is scholarship information unambiguous?
+- Can they enquire without friction?
+- Are all routes and buttons functional?
+
+**Engineering**
+- Does the project compile?
+- Are there runtime errors?
+- Do images load?
+- Do forms validate?
+- Does navigation work?
+- Does the mobile layout work?
+- Are loading and error states handled?
+- Are there broken routes or inaccessible controls?
+
+Fix the discovered problems rather than merely reporting them.
+
+---
+
+# 17 — EXPECTED BUILD OUTPUT
+
+Generate the complete website application with:
+
+1. Working homepage
+2. Courses directory
+3. Seven course detail pages
+4. Instructors directory
+5. Scholarship page with accurate expired-round status
+6. About IDH page
+7. Contact page
+8. Enrollment enquiry page
+9. FAQ content and interactions
+10. Privacy page
+11. Shared header and footer
+12. Responsive design system
+13. Functional navigation
+14. Search and filter interactions
+15. Proper form validation and backend integration boundaries
+16. SEO-ready structure
+17. Production-quality reusable components
+
+Create polished, meaningful content based on the provided facts.
+
+Use engaging visuals, professional interface copy, natural interactions and responsive layouts.
+
+Do not stop after building only the hero or homepage.
+
+Do not output generic explanations in place of implementation.
+
+**FINAL CREATIVE DIRECTION**
+
+Innovative Design Hub should feel like an ambitious digital learning institution: modern enough to appeal to young technology learners, credible enough for parents and professionals, and simple enough for first-time students.
+
+Every element should contribute to discovery, confidence or enrollment.
+
+The final result must be:
+
+**Distinctive. Trustworthy. Student-Centered. Fast. Accessible. Beautifully Engineered.**
+
+**Begin building the full IDH website now.**
